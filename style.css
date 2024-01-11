@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: -moz-linear-gradient(180deg, green, yellow);
+}
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+.app {
+    text-align: center;
+    font-size: 22pt;
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+input {
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 12px;
+    border: solid black 1px;
+}
+button {
+    padding: 10px;
+    background-color: yellowgreen;
+    font-size: 20pt;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.1); 
+    background-color: #b6e751;
+}
+p {
+    margin: 20px;
+}
